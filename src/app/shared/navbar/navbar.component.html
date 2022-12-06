@@ -1,7 +1,7 @@
 <nav class="navbar navbar-expand-lg fixed-top navbar-transparent" color-on-scroll="500">
     <div class="container">
         <div class="navbar-translate">
-            <a class="navbar-brand" href="https://www.ayanacodes.com">Ayana Codes</a>
+            <a class="navbar-brand" href="https://www.ayanacodes.com">Ayana Codes 404-981-6588</a>
             <button class="navbar-toggler navbar-burger" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation" (click)="sidebarToggle()">
                 <span class="navbar-toggler-bar"></span>
                 <span class="navbar-toggler-bar"></span>
@@ -21,6 +21,9 @@
                         <i class="fa fa-github"></i>
                         <p class="d-lg-none">GitHub</p>
                     </a>
+                </li>
+                <li class="nav-item" *ngIf="!isDocumentation()">
+                        <p class="d-lg-none">Call me 404-981-6588</p>
                 </li>
                 
                 <li class="nav-item" *ngIf="!isHome()">
